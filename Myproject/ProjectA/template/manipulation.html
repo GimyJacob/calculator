@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulation Page</title>
+</head>
+<body>
+<form action="{% url 'AppProjectA:manipulation' %}" method="GET">
+    <h1 text-align="center">Form of Calculation </h1>
+    <label>Enter the numbers for DMAS answers</label><br><br>
+    <input type="text" name="number1" placeholder="Enter the first number here"><br>
+    <input type="text" name="number2" placeholder="Enter the second number here">
+    <input type="submit">
+</form>
+
+</body>
+</html>
